@@ -8,4 +8,4 @@ Programming contest practice
 ## Build
 `⇧⌘B`
 
-→ If `hoge.cpp` is active, `hoge.out` will be generated.
+→ If `hoge.cpp` is active, `hoge.out` will be generated to `bin`.
