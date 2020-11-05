@@ -10,6 +10,10 @@ Programming contest practice
 
 → If `hoge.cpp` is active, `hoge.out` will be generated to `bin`.
 
+## Memo
+- [データ型ごとの値の範囲](https://docs.microsoft.com/ja-jp/cpp/cpp/data-type-ranges?view=msvc-160)が10の何乗程度までかをまとめておきたい。
+- 標準ライブラリのよく使う関数をリストアップ
+
 ## Snippet
 Add user snippet for `.cpp`:
 
