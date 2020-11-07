@@ -48,6 +48,7 @@ Returns iterator. use `*max_element()` to get value.
 e.g.)
 - `unordered_map<char, int> m;`
 - Add: `m[c] = 2;`
+- Key existance: `m.find(k) == m.end()`
 - Loop: `for (auto it = m.begin(); it != m.end(); it++) {`
     - => key: `it->first`, value: `it->second`
 
