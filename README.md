@@ -13,7 +13,7 @@ Ref: [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/
 
 ## Knowledge
 - [Data Type Ranges](doc/range.md)
-- 標準ライブラリのよく使う関数をリストアップ
+- [Libraries](doc/includes.md)
 
 ## Snippet
 Add user snippet for `.cpp`:
