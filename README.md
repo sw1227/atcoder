@@ -1,17 +1,18 @@
 Programming contest practice
 ===
----
 
-
-[Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac#_build-helloworldcpp)
 
 ## Build
+See `.vscode/tasks.json`.
+
+Ref: [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac#_build-helloworldcpp)
+
 `⇧⌘B`
 
 → If `hoge.cpp` is active, `hoge.out` will be generated to `bin`.
 
-## Memo
-- [データ型ごとの値の範囲](https://docs.microsoft.com/ja-jp/cpp/cpp/data-type-ranges?view=msvc-160)が10の何乗程度までかをまとめておきたい。
+## Knowledge
+- [Data Type Ranges](doc/range.md)
 - 標準ライブラリのよく使う関数をリストアップ
 
 ## Snippet
