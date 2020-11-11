@@ -16,6 +16,9 @@ x: float, double, etc.. (not int)
 
 x, y: float, double, etc...
 
+### hypot(x, y)
+`sqrt(x*x + y*y)`
+
 
 ## 3. set
 `set<T> my_set`
@@ -44,6 +47,16 @@ Max / Min of vecotr.
 
 Returns iterator. use `*max_element()` to get value.
 
+### next_permutation
+Permutation of vector. **Duplicates are removed!!!.**
+
+e.g.)
+```cpp
+do {
+    // use vector v
+} while (next_permutation(v.begin(), v.end()));
+```
+
 ## 5. functional
 
 ## 6. unordered_map
@@ -55,6 +68,13 @@ e.g.)
     - => key: `it->first`, value: `it->second`
 
 ## 7. stack
+### stack
+`stack<T>`
+- `.push()`: Add element
+- `.top()`: Read value of last element
+- `.pop()`: Remove last in
+- `.empty()`: Check if empty
+- `.size()`: Stack size
 
 ## 8. queue
 
@@ -63,3 +83,9 @@ e.g.)
 e.g.)
 - `pair<int, string> p = make_pair(1, "hello")`
 - Get value: `p.first, p.second`
+
+## 10. iomanip
+### setprecision
+e.g.)
+- `cout << fixed << setprecision(4) << x << endl;`
+    - => output: xx.xxxx
