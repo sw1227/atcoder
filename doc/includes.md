@@ -24,6 +24,8 @@ x, y: float, double, etc...
 `set<T> my_set`
 
 - Insert by `my_set.insert(c)`.
+- Delete by `my_set.erase(c)`
+- Size: `my_set.size()`
 - Check existance: `my_set.find(c) == my_set.end()`
 - Loop: `for (auto it = my_set.begin(); it != my_set.end(); it++) {`
     - => value: `*it`
